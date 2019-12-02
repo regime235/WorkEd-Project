@@ -11,7 +11,7 @@
 		float: right;
 	}
 </style>
-<body style="background-color: gray">
+<body style="background-color: white">
 <nav class="navbar navbar-expand-sm bg-dark" >
   <ul class="navbar-nav">
   	<li class="nav-item">
