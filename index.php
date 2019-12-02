@@ -2,13 +2,13 @@
 <head>
     <title>Login Form</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-<body style="background-image: url(aup1.jpg)">
-    <div class="loginbox" style="background: linear-gradient(to bottom, #ffffff 0%, #00001a 100%)" >
+<body>
+    <div class="loginbox">
     <img src="AUP.png" class="avatar">
-       <h1><font color="black">Login Here<font></h1>
+       <h1><font color="yellow"><p style="font-family: bookman old style;">Login Here</p></font></h1>
         <form action="HomePage.php" method="post">
-            <p style= >Username</p>
-            <input type="text" name="" placeholder="Enter Username">
+            <p>Username</p>
+            <input type="text" name="" placeholder="Enter Username" >
             <p>Password</p>
             <input type="password" name="" placeholder="Enter Password">
             <input type="submit" name="" value="Login">

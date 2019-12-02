@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(cICNc3C.jpg);
+    background: url(aup2.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -10,7 +10,7 @@ body{
 .loginbox{
     width: 320px;
     height: 420px;
-    background: #000;
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     top: 50%;
     left: 50%;
@@ -59,6 +59,8 @@ h1{
 
 .loginbox input[type="submit"]{
     border: none;
+    border-radius: 25px;
+    cursor: pointer;
     outline: none;
     height: 40px;
     background: #fb2525;
