@@ -9,23 +9,22 @@
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color: gray">
-	<nav class="navbar navbar-expand-sm bg-dark" >
+	<nav class="navbar navbar-expand-sm " style="background-color: yellow">
   <ul class="navbar-nav">
   	<li class="nav-item">
-      <a class="nav-link" href="HomePage.php">Home</a>
+      <a class="nav-link" href="#"><font color="black"><p style="font-family: cambria;">Home</p></font></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Student</a>
+      <a class="nav-link" href="Student.php"><font color="black"><p style="font-family: cambria;">Student</p></font></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="StudentRecord.php">Student Record</a>
+      <a class="nav-link" href="StudentRecord.php"><font color="black"><p style="font-family: cambria;">Student Record</p></font></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="StudentLog.php">Student Log</a>
-    </li>
+      <a class="nav-link" href="StudentLog.php"><font color="black"><p style="font-family: cambria;">Student Log</p></font></a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="index.php">Log Out</a>
+      <a class="nav-link" href="index.php"><font color="black"><p style="font-family: cambria;">Log Out</p></font></a>
     </li>
   </ul>
 </nav>
