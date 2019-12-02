@@ -4,16 +4,16 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 <body>
     <div class="loginbox">
-    <img src="aup_logo.png" class="avatar">
-       <h1>Login Here</h1>
+    <img src="AUP.png" class="avatar">
+       <h1><font color="yellow"><p style="font-family: bookman old style;">Login Here</p></font></h1>
         <form action="HomePage.php" method="post">
             <p>Username</p>
-            <input type="text" name="" placeholder="Enter Username">
+            <input type="text" name="" placeholder="Enter Username" >
             <p>Password</p>
             <input type="password" name="" placeholder="Enter Password">
             <input type="submit" name="" value="Login">
-            <a href="#">Lost Your Password</a><br>
-            <a href="#">Don't have an account?</a>
+            <a href="#"><font color="yellow">Lost your password?<font></a><br>
+            <a href="#"><font color="yellow">Don't have an account?<font></a>
         </form>
     </div>
 </body>
