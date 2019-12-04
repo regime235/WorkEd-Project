@@ -67,25 +67,89 @@
         </div>
     </header>
 
-<!-- <nav class="navbar navbar-expand-sm " style="background-color: yellow">
-  <ul class="navbar-nav">
-  	<li class="nav-item">
-      <a class="nav-link" href="#"><font color="black"><p style="font-family: cambria;">Home</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Student.php"><font color="black"><p style="font-family: cambria;">Student</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="StudentRecord.php"><font color="black"><p style="font-family: cambria;">Student Record</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="StudentLog.php"><font color="black"><p style="font-family: cambria;">Student Log</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="index.php"><font color="black"><p style="font-family: cambria;">Log Out</p></font></a>
-    </li>
-  </ul>
-</nav> -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+
+            <!-- Single Welcome Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/pic1.jpg);">
+                <!-- Welcome Content -->
+                <div class="welcome-content h-100">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center justify-content-center">
+                            <!-- Welcome Text -->
+                            <div class="col-12 col-md-9 col-lg-6">
+                                <div class="welcome-text text-center">
+                                    <h2 data-animation="fadeInUpBig" data-delay="100ms">Designed For Music, Engineered to Last</h2>
+                                    <h5 data-animation="fadeInUpBig" data-delay="400ms">31st Dec - Night out party....Don't miss it</h5>
+                                    <a href="#" class="btn razo-btn btn-2" data-animation="fadeInUpBig" data-delay="700ms">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Welcome Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/pic2.jpg);">
+                <!-- Welcome Content -->
+                <div class="welcome-content h-100">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center justify-content-center">
+                            <!-- Welcome Text -->
+                            <div class="col-12 col-md-10 col-lg-6">
+                                <div class="welcome-text text-center">
+                                    <h2 data-animation="fadeInUp" data-delay="100ms">Designed For Music, Engineered to Last</h2>
+                                    <h5 data-animation="fadeInUp" data-delay="400ms">31st Dec - Night out party....Don't miss it</h5>
+                                    <a href="#" class="btn razo-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Welcome Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/pro.jpg);">
+                <!-- Welcome Content -->
+                <div class="welcome-content h-100">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center justify-content-center">
+                            <!-- Welcome Text -->
+                            <div class="col-12 col-md-10 col-lg-6">
+                                <div class="welcome-text text-center">
+                                    <h2 data-animation="fadeInUp" data-delay="100ms">Designed For Music, Engineered to Last</h2>
+                                    <h5 data-animation="fadeInUp" data-delay="400ms">31st Dec - Night out party....Don't miss it</h5>
+                                    <a href="#" class="btn razo-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Welcome Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/pic2.jpg);">
+                <!-- Welcome Content -->
+                <div class="welcome-content h-100">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center justify-content-center">
+                            <!-- Welcome Text -->
+                            <div class="col-12 col-md-10 col-lg-6">
+                                <div class="welcome-text text-center">
+                                    <h2 data-animation="fadeInUp" data-delay="100ms">Designed For Music, Engineered to Last</h2>
+                                    <h5 data-animation="fadeInUp" data-delay="400ms">31st Dec - Night out party....Don't miss it</h5>
+                                    <a href="#" class="btn razo-btn btn-2" data-animation="fadeInUp" data-delay="700ms">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
 	<div class="container" >
 		<h1><font color="white" size="8">WELCOME TO OUR APP</font></h1>
 		<hr>
