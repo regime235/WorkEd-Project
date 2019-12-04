@@ -23,7 +23,7 @@
                     <nav class="classy-navbar justify-content-between" id="razoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="./img/core-img/logo.png" alt=""></a>
+                        <a class="nav-brand" href="index.html"><img src="img/aup_logo.png" alt="" height="75" width="75"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
