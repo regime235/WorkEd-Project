@@ -140,12 +140,12 @@
     // ****************************
     // :: 10.0 Scrollup Active Code
     // ****************************
-    if ($.fn.scrollUp) {
-        razo_window.scrollUp({
-            scrollSpeed: 1500,
-            scrollText: '<i class="arrow_up"</i>'
-        });
-    }
+    // if ($.fn.scrollUp) {
+    //     razo_window.scrollUp({
+    //         scrollSpeed: 1500,
+    //         scrollText: '<i class="arrow_up"</i>'
+    //     });
+    // }
 
     // **************************
     // :: 11.0 Sticky Active Code

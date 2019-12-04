@@ -13,7 +13,7 @@
 	}
 </style>
 </head>
-<body style="background-image: url(img/aup1.jpg); background-size: cover;" >
+<body>
 
     <header class="header-area">
         <!-- Main Header Start -->
@@ -66,19 +66,32 @@
                 </div>
             </div>
         </div>
+        
     </header>
-
-    
+    <header class="masthead" style="background-image: url('img/pic1.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1>WORK EDUCATION</h1>
+            <span class="subheading">Work Smarter.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
 
 	<div class="container" >
-		<h1><font color="white" size="8">WELCOME TO OUR APP</font></h1>
+		<h1><font color="maroon" size="8">WELCOME TO OUR APP</font></h1>
 		<hr>
 
-		<p><img src="img/col.jpg" alt="picture" style="width:300px;height:300px;margin-left:15px;"><font color="white" size="6">
-		This is an online app that helps students to make a log for their time and activities in WorkEd.</font></p>
+		<p><img src="img/col.jpg" alt="picture" style="width:300px;height:300px;margin-left:15px;"><font color="black" size="6">
+        This is an online app that helps students to make a log for their time and activities in WorkEd.
+        This is well designed and has a friendly user interface.</font></p>
 
-		<p><font color="white" size="6">This is well designed and has a friendly user interface.</font></p>
+		<p><font color="black" size="6">This is well designed and has a friendly user interface.</font></p>
 
 
 
