@@ -12,11 +12,10 @@
     <script src="js/popper.min.js"></script>
     <!-- Bootstrap -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
     <!-- All Plugins -->
     <script src="js/razo.bundle.js"></script>
     <!-- Active -->
-    <script src="js/default-assets/active.js"></script>
+    <script src="js/active.js"></script>
 </head>
 
 <body style="background-image: url(img/aup1.jpg); background-size: cover;" >
