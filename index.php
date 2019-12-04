@@ -1,10 +1,11 @@
 <html>
 <head>
     <title>Login Form</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
+<body style="background-image: url(img/aup2.jpg); background-size: cover;">
     <div class="loginbox">
-    <img src="AUP.png" class="avatar">
+    <img src="img/AUP.png" class="avatar">
        <h1><font color="yellow"><p style="font-family: bookman old style;">Login Here</p></font></h1>
         <form action="HomePage.php" method="post">
             <p>Username</p>
