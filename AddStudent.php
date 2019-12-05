@@ -3,53 +3,101 @@
 <head>
 	<meta charset="utf-8">
 	<title>Student</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  		<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/razo.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/active.js"></script>
 </head>
-<body style="background-color: gray">
-	<nav class="navbar navbar-expand-sm " style="background-color: yellow">
-  <ul class="navbar-nav">
-  	<li class="nav-item">
-      <a class="nav-link" href="#"><font color="black"><p style="font-family: cambria;">Home</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Student.php"><font color="black"><p style="font-family: cambria;">Student</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="StudentRecord.php"><font color="black"><p style="font-family: cambria;">Student Record</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="StudentLog.php"><font color="black"><p style="font-family: cambria;">Student Log</p></font></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="index.php"><font color="black"><p style="font-family: cambria;">Log Out</p></font></a>
-    </li>
-  </ul>
-</nav>
-	<div class="container">
-		<h1>Add Student</h1>
-		<hr>
-	<div class="row" id="myForm">
-		<div class="col-xs-12">
-			<form action="StudentInsertLog.php" method="post">
-				<h5>First Name:</h5> <input type="text" name="Stud_fName" style="width: 200%">
-				<br>
-				<h5>Last Name:</h5> <input type="text"  name="Stud_lName"style="width:200%">
-				<br>
-				<h5>Department:</h5> <input type="text"   name="Department" style="width: 200%">
-				<br>
-				<h5>Supervisor:</h5> <input type="text"   name="Supervisor" style="width: 200%">
-				<br>
-				<h5>Time-in:</h5> <input type="text"   name="Stud_TimeIn" style="width: 200%">
-				<br>
-				<h5>Time-Out:</h5> <input type="text"   name="Stud_TimeOut" style="width: 200%">
-				<br>
-				<button  type="submit" class="btn btn-success">Submit</button>
-			</form>
-		</div>
-		</div>
-	</div>
+
+<body style="background-image: url(img/aup1.jpg); background-size: cover;" >
+
+
+	<header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="razoNav">
+
+                        <!-- Logo -->
+                        <a class="nav-brand" href="index.html"><img src="img/aup_logo.png" alt="" height="75" width="75"></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="HomePage.php">Home</a></li>
+                                    <li><a href="#">Student</a>
+                                    <li><a href="StudentRecord.php">Student Record</a></li>
+                                    <li><a href="StudentLog.php">Student Log</a>
+                                    <li><a href="index.php">Log Out</a></li>
+                                    
+                                        
+                                </ul>
+
+                                <!-- Share Icon -->
+                                <div class="social-share-icon">
+                                    <i class="social_share"></i>
+                                </div>
+
+                                <!-- Search Icon -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal">
+                                    <i class="icon_search"></i>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+	<div class="container" style="margin: auto;;border: 2px;  padding: 55px; width: 460px; background: rgba(0,0,0,0.5) ">
+        <h1 style="color: yellow; text-align: center; ">Add Student</h1>
+        <hr>
+    <div class="row" id="myForm" >
+        <div class="col-xs-12">
+            <form action="StudInsertRecord.php" method="post" id="registration"; style="width: 250px; margin: auto;">
+                <h5 style="color: yellow;">First Name:</h5> <input type="text"id="name" placeholder="Enter First Name" name="Stud_fName" style="width: 150%; background: none; padding: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Last Name:</h5> <input type="text" id="name" placeholder="Enter Last Name" name="Stud_lName"style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Course:</h5> <input type="text" id="name" placeholder="Enter Course" name="Stud_Course" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Work Assignment:</h5> <input type="text" id="name" placeholder="Enter Assignment" name="Stud_WorkAss" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Work Schedule:</h5> <input type="text" id="name" placeholder="Enter Schedule" name="Stud_Sched" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Department:</h5> <input type="text" id="name" placeholder="Enter Department" name="Department" style="width:150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 3px;;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <br>
+                <button  type="submit" class="btn btn-success" style="width: 75%; text-align: center;">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
