@@ -73,31 +73,31 @@
             </div>
         </div>
     </header>
-	<div class="container">
-		<h1 style="color: yellow">Add Student</h1>
-		<hr>
-	<div class="row" id="myForm">
-		<div class="col-xs-12">
-			<form action="StudInsertRecord.php" method="post">
-				<h5 style="color: yellow">First Name:</h5> <input type="text" placeholder="Enter First Name" name="Stud_fName" style="width: 200%">
-				<br>
-				<h5 style="color: yellow">Last Name:</h5> <input type="text"  placeholder="Enter Last Name" name="Stud_lName"style="width:200%">
-				<br>
-				<h5 style="color: yellow">Course:</h5> <input type="text"  placeholder="Enter Course" name="Stud_Course" style="width: 200%">
-				<br>
-				<h5 style="color: yellow">Work Assignment:</h5> <input type="text"  placeholder="Enter Assignment" name="Stud_WorkAss" style="width: 200%">
-				<br>
-				<h5 style="color: yellow">Work Schedule:</h5> <input type="text"  placeholder="Enter Schedule" name="Stud_Sched" style="width: 200%">
-				<br>
-				<h5 style="color: yellow">Department:</h5> <input type="text"  placeholder="Enter Department" name="Department" style="width: 200%">
-				<br>
-				<h5 style="color: yellow">Supervisor:</h5> <input type="text"  placeholder="Enter Supervisor" name="Supervisor" style="width: 200%">
-				<br>
-				<br>
-				<button  type="submit" class="btn btn-success">Submit</button>
-			</form>
-		</div>
-		</div>
-	</div>
+	<div class="container" style="margin: auto;;border: 2px;  padding: 55px; width: 460px; background: rgba(0,0,0,0.5) ">
+        <h1 style="color: yellow; text-align: center; ">Add Student</h1>
+        <hr>
+    <div class="row" id="myForm" >
+        <div class="col-xs-12">
+            <form action="StudInsertRecord.php" method="post" id="registration"; style="width: 250px; margin: auto;">
+                <h5 style="color: yellow;">First Name:</h5> <input type="text"id="name" placeholder="Enter First Name" name="Stud_fName" style="width: 150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Last Name:</h5> <input type="text" id="name" placeholder="Enter Last Name" name="Stud_lName"style="width: 150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Course:</h5> <input type="text" id="name" placeholder="Enter Course" name="Stud_Course" style="width: 150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Work Assignment:</h5> <input type="text" id="name" placeholder="Enter Assignment" name="Stud_WorkAss" style="width: 150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Work Schedule:</h5> <input type="text" id="name" placeholder="Enter Schedule" name="Stud_Sched" style="width: 150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Department:</h5> <input type="text" id="name" placeholder="Enter Department" name="Department" style="width:150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <h5 style="color: yellow">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 5px;border-radius: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <br>
+                <br>
+                <button  type="submit" class="btn btn-success" style="width: 75%; text-align: center;">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
