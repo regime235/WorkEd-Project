@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>HomePage</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
    
       
 
 <head>
 <style>
-	img{
-		float: right;
-	}
+    img{
+        float: right;
+    }
 </style>
 </head>
 <body>
@@ -24,7 +24,7 @@
                     <nav class="classy-navbar justify-content-between" id="razoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="img/aup_logo.png" alt="" height="75" width="75"></a>
+                        <a class="nav-brand" href="index.html"><img src="img/aup.png" alt="" height="60" width="60"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -83,19 +83,22 @@
   </header>
 
 
-	<div class="container" >
-		<h1><font color="maroon" size="8">WELCOME TO OUR APP</font></h1>
-		<hr>
+    <div class="container" >
+        <h1><font color="maroon" size="8">WELCOME TO OUR APP</font></h1>
+        <hr>
 
-		<p><img src="img/col.jpg" alt="picture" style="width:300px;height:300px;margin-left:15px;"><font color="black" size="6">
+        <p><img src="img/col.jpg" alt="picture" style="width:300px;height:300px;margin-left:15px; margin-bottom: 20px"><font color="black" size="6">
         This is an online app that helps students to make a log for their time and activities in WorkEd.
-        This is well designed and has a friendly user interface.</font></p>
+        </font></p>
 
-		<p><font color="black" size="6">This is well designed and has a friendly user interface.</font></p>
-
+        <p><font color="black" size="6">This is well designed and has a friendly user interface.</font></p>
 
 
 </div>
+
+<footer">
+    <p  style="font-size: 10px; margin-left: 2%"> Designed By: Andaya, A.B | Becina, L.M | Dela Cruz, B. | Jun Jun | Magpantay, J.V | Pantajaitan, C. | Stifler, A.</p>
+</footer>
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
     <!-- Popper -->

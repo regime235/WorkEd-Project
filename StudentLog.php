@@ -18,7 +18,7 @@
     <!-- Active -->
     <script src="js/active.js"></script>
 </head>
-<body style="background-image: url(img/aup1.jpg); background-size: cover;" >
+<body style="background-image: url(img/aup4.jpg); background-size: cover;" >
 <header class="header-area">
         <!-- Main Header Start -->
         <div class="main-header-area">
@@ -28,7 +28,7 @@
                     <nav class="classy-navbar justify-content-between" id="razoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="img/aup_logo.png" alt="" height="75" width="75"></a>
+                        <a class="nav-brand" href="index.html"><img src="img/AUP.png" alt="" height="50" width="50"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -72,7 +72,7 @@
         </div>
     </header>
 	<div class="container">
-		<h1>Student Log</h1> <a href="AddStudent.php" class="btn btn-success" role="button">Add Student</a>
+		<h1 style="color: yellow;text-shadow: 2px 2px 6px black; font-family: bookman old style; font-size: 40px">Student Log</h1> <a href="AddStudent.php" class="btn btn-success" role="button">Add Student</a>
 		<hr>
 		<table class="table">
 			<thead class="thead-dark">

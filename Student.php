@@ -18,7 +18,7 @@
     <script src="js/active.js"></script>
 </head>
 
-<body style="background-image: url(img/aup1.jpg); background-size: cover;" >
+<body style="background-image: url(img/aup5.jpg); background-size: cover; background-position: center" >
 
 
 	<header class="header-area">
@@ -30,7 +30,7 @@
                     <nav class="classy-navbar justify-content-between" id="razoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="img/aup_logo.png" alt="" height="75" width="75"></a>
+                        <a class="nav-brand" href="index.html"><img src="img/AUP.png" alt="" height="50" width="50"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -74,24 +74,24 @@
         </div>
     </header>
 	<div class="container" style="margin: auto;;border: 2px;  padding: 55px; width: 460px; background: rgba(0,0,0,0.5) ">
-        <h1 style="color: yellow; text-align: center; ">Add Student</h1>
+        <h1 style="color: yellow; text-shadow: 2px 2px 6px black; text-align: center; font-family: bookman old style; font-size: 40px">Add Student</h1>
         <hr>
     <div class="row" id="myForm" >
         <div class="col-xs-12">
             <form action="StudInsertRecord.php" method="post" id="registration"; style="width: 250px; margin: auto;">
-                <h5 style="color: yellow;">First Name:</h5> <input type="text"id="name" placeholder="Enter First Name" name="Stud_fName" style="width: 150%; background: none; padding: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">First Name:</h5> <input type="text"id="name" placeholder="Enter First Name" name="Stud_fName" style="width: 150%; background: none; padding: 5px;outline: 0;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Last Name:</h5> <input type="text" id="name" placeholder="Enter Last Name" name="Stud_lName"style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">Last Name:</h5> <input type="text" id="name" placeholder="Enter Last Name" name="Stud_lName"style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Course:</h5> <input type="text" id="name" placeholder="Enter Course" name="Stud_Course" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">Course:</h5> <input type="text" id="name" placeholder="Enter Course" name="Stud_Course" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Work Assignment:</h5> <input type="text" id="name" placeholder="Enter Assignment" name="Stud_WorkAss" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">Work Assignment:</h5> <input type="text" id="name" placeholder="Enter Assignment" name="Stud_WorkAss" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Work Schedule:</h5> <input type="text" id="name" placeholder="Enter Schedule" name="Stud_Sched" style="width: 150%; background: none; padding: 5px;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">Work Schedule:</h5> <input type="text" id="name" placeholder="Enter Schedule" name="Stud_Sched" style="width: 150%; background: none; padding: 5px;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Department:</h5> <input type="text" id="name" placeholder="Enter Department" name="Department" style="width:150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">Department:</h5> <input type="text" id="name" placeholder="Enter Department" name="Department" style="width:150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 3px;;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: white; font-family: constancia; font-size: 18px;">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 3px;;outline: 0;font-family: serif;font-size: 16px;border-top: none;border-left: none;border-right: none;">
                 <br>
                 <br>
                 <button  type="submit" class="btn btn-success" style="width: 75%; text-align: center;">Submit</button>

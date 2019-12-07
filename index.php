@@ -6,7 +6,7 @@
 <body style="background-image: url(img/aup2.jpg); background-size: cover;">
     <div class="loginbox">
     <img src="img/AUP.png" class="avatar">
-       <h1><font color="yellow"><p style="font-family: bookman old style;">Login Here</p></font></h1>
+       <h1><font color="yellow"><p style="font-family: bookman old style; text-shadow: 2px 2px 6px black;">Login Here</p></font></h1>
         <form action="HomePage.php" method="post">
             <p>Username</p>
             <input type="text" name="" placeholder="Enter Username" >
