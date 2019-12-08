@@ -77,7 +77,7 @@
 	<div class="container">
 		<h1 style="color: yellow;text-shadow: 2px 2px 6px black; font-family: bookman old style; font-size: 40px">Student Record</h1>
 		<hr>
-		<table class="table">
+		<table class="table" style="font">
 			<thead class="thead-dark">
 				<tr>
 					<th>First Name</th>
@@ -99,7 +99,7 @@
 
 					while($row = mysqli_fetch_array($result))
 						echo'
-							<tr>
+							<tr bgcolor="yellow">
 								<td>'.$row['Stud_fName'].'</td>
 								<td>'.$row['Stud_lName'].'</td>
 								<td>'.$row['Stud_Course'].'</td>

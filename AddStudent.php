@@ -78,20 +78,18 @@
         <hr>
     <div class="row" id="myForm" >
         <div class="col-xs-12">
-            <form action="StudInsertRecord.php" method="post" id="registration"; style="width: 250px; margin: auto;">
+            <form action="StudentInsertLog.php" method="post" id="registration"; style="width: 250px; margin: auto;">
                 <h5 style="color: yellow;">First Name:</h5> <input type="text"id="name" placeholder="Enter First Name" name="Stud_fName" style="width: 150%; background: none; padding: 5px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
                 <h5 style="color: yellow">Last Name:</h5> <input type="text" id="name" placeholder="Enter Last Name" name="Stud_lName"style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Course:</h5> <input type="text" id="name" placeholder="Enter Course" name="Stud_Course" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: yellow">Department:</h5> <input type="text" id="name" placeholder="Enter Department" name="Department" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Work Assignment:</h5> <input type="text" id="name" placeholder="Enter Assignment" name="Stud_WorkAss" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: yellow">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Work Schedule:</h5> <input type="text" id="name" placeholder="Enter Schedule" name="Stud_Sched" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: yellow">Time-in:</h5> <input type="text" id="name" placeholder="Enter Time" name="Stud_TimeIn" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Department:</h5> <input type="text" id="name" placeholder="Enter Department" name="Department" style="width:150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
-                <br>
-                <h5 style="color: yellow">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 3px;;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
+                <h5 style="color: yellow">Time-Out:</h5> <input type="text" id="name" placeholder="Time-Out" name="Stud_TimeOut" style="width:150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
                 <br>
                 <button  type="submit" class="btn btn-success" style="width: 75%; text-align: center;">Submit</button>

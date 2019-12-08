@@ -11,7 +11,7 @@
 	$query = "INSERT INTO dtr (Stud_fName, Stud_lName, Department, Supervisor, Stud_TimeIn, Stud_TimeOut) VALUES('$StudfName', '$StudlName','$Department', '$Supervisor', '$Stud_TimeIn', '$Stud_TimeOut')"; 
 
 	if (mysqli_query($conn, $query)){
-		header("Location://localhost/WorkEdDB/StudentLog.php");
+		header("Location://localhost/Project/StudentLog.php");
 	} else{
 		echo "Try Again!";
 	}

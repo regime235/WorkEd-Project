@@ -95,7 +95,7 @@
 
 					while($row = mysqli_fetch_array($result))
 						echo'
-							<tr>
+							<tr bgcolor="yellow">
 								<td>'.$row['Stud_fName'].'</td>
 								<td>'.$row['Stud_lName'].'</td>
 								<td>'.$row['Department'].'</td>
