@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<title>Student</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="style.css">
+  	<link rel="stylesheet" href="css/style.css">
   		<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
     <!-- Popper -->
     <script src="js/popper.min.js"></script>
     <!-- Bootstrap -->

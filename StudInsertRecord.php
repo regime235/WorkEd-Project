@@ -12,7 +12,7 @@
 	$query = "INSERT INTO student (Stud_fName, Stud_lName, Stud_Course, Stud_WorkAss, Stud_Sched, Department, Supervisor) VALUES('$StudfName', '$StudlName', '$StudCourse', '$StudWorkAss', '$StudSched', '$Department', '$Supervisor')"; 
 
 	if (mysqli_query($conn, $query)){
-		header("Location://localhost/WorkEdDB/StudentRecord.php");
+		header("Location://localhost/Project/StudentRecord.php");
 	} else{
 		echo "Try Again!";
 	}

@@ -3,11 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	<title>DBMS</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" href="style.css">
+  	<link rel="stylesheet" href="css/style.css">
+  		<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/razo.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/active.js"></script>
 </head>
 <body style="background-color: gray">
 	<div class="container">
-		<h1>Delete Information</h1>
+		<h1 style="font-size: 60px">Delete Information</h1>
 		<hr>
 	<div class="row" id="myForm">
 		<div class="col-xs-12">
