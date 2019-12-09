@@ -87,10 +87,6 @@
                 <br>
                 <h5 style="color: yellow">Supervisor:</h5> <input type="text" id="name" placeholder="Enter Supervisor" name="Supervisor" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
                 <br>
-                <h5 style="color: yellow">Time-in:</h5> <input type="text" id="name" placeholder="Enter Time" name="Stud_TimeIn" style="width: 150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
-                <br>
-                <h5 style="color: yellow">Time-Out:</h5> <input type="text" id="name" placeholder="Time-Out" name="Stud_TimeOut" style="width:150%; background: none; padding: 3px;outline: 0;font-family: serif;font-size: 18px;border-top: none;border-left: none;border-right: none;">
-                <br>
                 <br>
                 <button  type="submit" class="btn btn-success" style="width: 75%; text-align: center;">Submit</button>
             </form>
