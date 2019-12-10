@@ -492,13 +492,13 @@ input:focus {
         margin-top: 15px; } }
 
 .classy-nav-container {
-  background-color: transparent;
+  background-color: cornflowerblue;
   padding: 0; }
   .classy-nav-container .classy-navbar {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    height: 90px;
+    height: 70px;
     padding: 0; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .classy-nav-container .classy-navbar {
