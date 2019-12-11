@@ -13,7 +13,6 @@
 
     #borderimg{
         border: 10px solid blue;
-        padding: 5px;
     }
 </style>
 </head>
