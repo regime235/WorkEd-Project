@@ -2245,5 +2245,9 @@ input:focus {
   .razo-author-avatar h6 {
     margin-bottom: 0;
     font-size: 14px; }
+  
+.container h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
