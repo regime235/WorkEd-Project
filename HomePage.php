@@ -4,12 +4,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
    
-      
-
 <head>
 <style>
     img{
         float: right;
+
+    }
+
+    #borderimg{
+        border: 10px solid blue;
+        padding: 5px;
     }
 </style>
 </head>
@@ -68,7 +72,7 @@
         </div>
         
     </header>
-    <header class="masthead" style="background-image: url('img/pic1.jpg')">
+    <header class="masthead" style="background-image: url('img/pic1.jpg')"> 
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -87,7 +91,7 @@
         <h1><font color="maroon" size="8">WELCOME TO OUR APP</font></h1>
         <hr>
 
-        <p><img src="img/col.jpg" alt="picture" style="width:300px;height:300px;margin-left:15px; margin-bottom: 20px"><font color="black" size="6">
+        <p><img src="img/col.jpg" alt="picture" style="width:300px;height:300px;margin-left:15px; margin-bottom: 20px" id="borderimg"><font color="black" size="6">
         This is an online app that helps students to make a log for their time and activities in WorkEd.
         </font></p>
 
