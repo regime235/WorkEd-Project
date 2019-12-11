@@ -13,6 +13,7 @@
 
     #borderimg{
         border: 10px solid blue;
+        border-radius: 10px;
     }
 </style>
 </head>
