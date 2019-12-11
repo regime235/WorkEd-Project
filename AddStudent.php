@@ -74,7 +74,7 @@
         </div>
     </header>
 	<div class="container" style="margin: auto;;border: 2px;  padding: 55px; width: 460px; background: rgba(0,0,0,0.5) ">
-        <h1 style="color: yellow; text-align: center; ">Add Student</h1>
+        <h1 style="color: yellow; text-align: center; text-shadow: 2px 2px 6px black; font-family: bookman old style; font-size: 40px">Add Student</h1>
         <hr>
     <div class="row" id="myForm" >
         <div class="col-xs-12">
